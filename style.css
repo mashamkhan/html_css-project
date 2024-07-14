@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    border: 1px solid rgb(219, 212, 212);
+    width: 60%;
+    height: 80%;
+    border-radius:1%;
+    box-shadow: 1px 1px 2px 2px #c5b3c5;
+}
+.box-1{
+    background: linear-gradient(135deg, #f5a623, #985de3);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.box-1 p{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 300%;   
+}
+.box-2 h2{
+    font-family:Arial, sans-serif;
+    margin-top: 7%;    
+}
+#para1{
+    font-family:Arial, sans-serif;
+    margin-top: 2%;
+    opacity: 0.3;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+}
+.username{
+    margin-top: 8%;
+    
+}
+.password{
+    margin-top: 5%;
+}
+.button{
+    margin-top: 9%;
+
+}
+.username input {
+  width: 50%;
+  padding: 2%;
+  padding: 2%;
+  font-size: 70%;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
+.username ::placeholder{
+    opacity: 0.4;
+    font-family: ui-serif;
+}
+.password ::placeholder{
+    opacity: 0.4;
+    padding-top: 3px;
+}
+.password input{
+    width: 50%;
+    padding: 2%;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button input{
+    background-color: #b6a2c9;
+    border: none;
+    padding: 2%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+}
+/* .input-container {
+    width: 50%;
+} */
+
+.password input {
+    width: 52%; 
+    padding: 2%; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.password input:focus {
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.username input {
+    width: 50%; 
+    padding: 2.5%; 
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    
+}
+.username label{
+    font-family: Arial, sans-serif;
+    opacity: 0.6;
+}
+.password label{
+    font-family: Arial, sans-serif;
+    opacity: 0.6;
+}
+.username input:focus {
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox{
+    margin-top: 4%;
+    display: inline-block;
+}
+.checkbox a{
+    position: relative;
+    left: 20%;
+}
+.last{
+    margin-top: 7%;
+}
